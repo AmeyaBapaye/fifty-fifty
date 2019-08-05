@@ -1,0 +1,3 @@
+text (CoinType) {
+  description (The type of coin to be flipped. Currently does nothing but it will in the future.)
+}

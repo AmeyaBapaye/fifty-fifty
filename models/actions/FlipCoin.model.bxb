@@ -1,0 +1,12 @@
+action (FlipCoin) {
+  type(Search)
+  description (This action flips a coin.)
+  collect {
+    input (coinType) {
+      type (CoinType)
+      min (Optional) max (One)
+    }
+  }
+
+  output (CoinFlipResult)
+}

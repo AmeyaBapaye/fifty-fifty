@@ -1,0 +1,5 @@
+enum (CoinFaceResult) {
+  description (The side the coin lands on.)
+  symbol (Heads)
+  symbol (Tails)
+}

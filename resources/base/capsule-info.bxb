@@ -1,0 +1,17 @@
+capsule-info {
+  display-name (Koin Flip)
+  developer-name (KamehAmeya)
+  icon-asset (icon.png)
+  description ("Flip a coin from the civilization widely credited with inventing metal coinage, Lydia. More coins will be added soon!")
+  
+  search-keywords {
+    keyword (coinflip)
+    keyword (coin flip)
+    keyword (heads or tails)
+  }
+  
+  dispatch-name (koin flip)
+  dispatch-aliases {
+    alias (coin flip) //covering for Bixby's ASR
+  }
+}

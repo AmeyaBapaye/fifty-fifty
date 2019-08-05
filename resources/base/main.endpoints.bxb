@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (FlipCoin) {
+      accepted-inputs (coinType)
+      local-endpoint ("FlipCoin.js")
+    }
+  }
+}

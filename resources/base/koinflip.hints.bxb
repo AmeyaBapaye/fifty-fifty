@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("Flip a coin")
+    utterance ("coin flip")
+    utterance ("Heads or tails")
+  }
+}
