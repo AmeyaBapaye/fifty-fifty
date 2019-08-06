@@ -1,0 +1,3 @@
+integer (NumTails) {
+  description (The number of Tails results.)
+}

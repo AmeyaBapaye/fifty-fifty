@@ -1,12 +1,20 @@
 structure (CoinFlipResult) {
   description (The total result of a coin flip.)
-  
+
   property (coinFaceResult) {
     type (CoinFaceResult)
     min (Required) max (One)
   }
   property (coinAnimationUrl) {
     type (CoinAnimationUrl)
+    min (Required) max (One)
+  }
+  property (numHeads) {
+    type (NumHeads)
+    min (Required) max (One)
+  }
+  property (numTails) {
+    type (NumTails)
     min (Required) max (One)
   }
 }

@@ -1,0 +1,101 @@
+layout-macro-def (coin-result) {
+  params {
+    param (coinFlipResult) {
+      type (CoinFlipResult)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        image {
+          url ("#{value(coinFlipResult.coinAnimationUrl)}")
+          object-fit (Contain)
+          background-color (Transparent)
+          aspect-ratio (4:3)
+        }
+        spacer
+
+        title-area {
+          halign (Center)
+          slot2 {
+            single-line {
+              text {
+                style (Title_XXL)
+                value ("#{value(coinFlipResult.coinFaceResult)}")
+              }
+            }
+          }
+        }
+        spacer
+        divider
+        spacer
+        hbox {
+          content {
+            vbox {
+              halign (Start)
+              valign (Middle)
+              content {
+                single-line {
+                  text {
+                    style (Title_S)
+                    value {
+                      template ("Number of Heads")
+                    }
+                  }
+                }
+              }
+            }
+            vbox {
+              halign (End)
+              valign (Middle)
+              content {
+                single-line {
+                  text {
+                    style (Detail_L_Soft)
+                    value {
+                      template ("#{value(coinFlipResult.numHeads)}")
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        spacer
+        hbox {
+          content {
+            vbox {
+              halign (Start)
+              valign (Middle)
+              content {
+                single-line {
+                  text {
+                    style (Title_S)
+                    value {
+                      template ("Number of Tails")
+                    }
+                  }
+                }
+              }
+            }
+            vbox {
+              halign (End)
+              valign (Middle)
+              content {
+                single-line {
+                  text {
+                    style (Detail_L_Soft)
+                    value {
+                      template ("#{value(coinFlipResult.numTails)}")
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

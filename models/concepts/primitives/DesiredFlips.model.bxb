@@ -1,0 +1,3 @@
+integer (DesiredFlips) {
+  description (The number of coin flips desired)
+}

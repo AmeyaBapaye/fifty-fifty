@@ -1,0 +1,30 @@
+dialog (Result) {
+  match: CoinFlipResult (result)
+
+  if (result.coinFaceResult == 'Heads' && result.numHeads == 1) {
+    choose (Random) {
+      template ("The coin came up heads!")
+      template ("Heads won!")
+    }
+  } else-if (result.coinFaceResult == 'Heads') {
+    choose (Random) {
+      template ("Heads won!")
+    }
+  } else-if (result.coinFaceResult == 'Tails' && result.numTails == 1) {
+    choose (Random) {
+      template ("The coin came up tails!")
+      template ("Tails never fails!")
+      template ("Tails won!")
+    }
+  } else-if (result.coinFaceResult == 'Tails') {
+    choose (Random) {
+      template ("Tails never fails!")
+      template ("Tails won!")
+    }
+  }  else-if (result.coinFaceResult == 'Thanos') {
+    choose (Random) {
+      template ("I am inevitable!")
+      template ("Perfectly balanced...as all things should be.")
+    }
+  }
+}

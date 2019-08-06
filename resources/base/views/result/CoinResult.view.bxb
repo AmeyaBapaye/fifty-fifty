@@ -1,0 +1,11 @@
+result-view {
+  match: CoinFlipResult (result)
+  
+  render {
+    layout-macro (coin-result) {
+      param (coinFlipResult) {
+        expression (result)
+      }
+    }
+  }  
+}

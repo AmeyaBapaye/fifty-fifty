@@ -2,25 +2,44 @@ module.exports = {
   function: FlipCoin
 }
 
-function FlipCoin (coinType) {
-  
+var console = require("console")
+
+function FlipCoin (coinType, desiredFlips) {
+
   var coinFaceResult
   var coinAnimationUrl
-  
-  var randomNum = Math.random()
-  
-  if(randomNum > 0.5) {
+  var numHeads = 0
+  var numTails = 0
+
+  for (var i = 0; i < desiredFlips; i++) { 
+    var randomNum = Math.random()
+    console.log(randomNum)
+
+    if(randomNum > 0.5) {
+      numHeads++
+    } else if (randomNum < 0.5){
+      numTails++
+    }
+  }  
+
+  if (numHeads > numTails) {
     coinFaceResult = "Heads"
-    coinAnimationUrl = 
-  } else {
+    coinAnimationUrl = "/gifs/LydiaCoinHeads.gif"
+  } else if (numTails > numHeads) {
     coinFaceResult = "Tails"
+    coinAnimationUrl = "/gifs/LydiaCoinTails.gif"
+  } else if (numHeads == numTails) {
+    coinFaceResult = "Thanos"
+    coinAnimationUrl = "/gifs/LydiaCoinTails.gif"
   }
-  
-  
-  
-  
+
+  console.log(coinFaceResult)
+  console.log(coinAnimationUrl)
+
   return {
     coinFaceResult: coinFaceResult,
-    coinAnimationUrl: coinAnimationUrl
+    coinAnimationUrl: coinAnimationUrl,
+    numHeads: numHeads,
+    numTails: numTails
   }
 }

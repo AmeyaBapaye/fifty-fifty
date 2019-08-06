@@ -1,8 +1,8 @@
 capsule-info {
-  display-name (Koin Flip)
+  display-name (50/50)
   developer-name (KamehAmeya)
   icon-asset (icon.png)
-  description ("Flip a coin from the civilization widely credited with inventing metal coinage, Lydia. More coins will be added soon!")
+  description ("What are your chances with this coin flip? Probably 50/50")
   
   search-keywords {
     keyword (coinflip)
@@ -10,8 +10,9 @@ capsule-info {
     keyword (heads or tails)
   }
   
-  dispatch-name (koin flip)
+  dispatch-name (50/50)
   dispatch-aliases {
-    alias (coin flip) //covering for Bixby's ASR
+    alias (50 50)
+    alias (fifty fifty)
   }
 }

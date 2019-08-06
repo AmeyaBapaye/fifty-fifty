@@ -1,0 +1,3 @@
+integer (NumHeads) {
+  description (The number of Heads results.)
+}

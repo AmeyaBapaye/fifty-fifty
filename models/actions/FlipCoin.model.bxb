@@ -6,6 +6,16 @@ action (FlipCoin) {
       type (CoinType)
       min (Optional) max (One)
     }
+    input (desiredFlips) {
+      type(DesiredFlips)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: FlipCoin
+          value: DesiredFlips (1)
+        }
+      }
+    }
   }
 
   output (CoinFlipResult)

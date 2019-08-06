@@ -1,3 +1,6 @@
 text (CoinAnimationUrl) {
   description (The location of the appropriate animation.)
+  features {
+    transient
+  }
 }

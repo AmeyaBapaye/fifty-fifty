@@ -1,0 +1,5 @@
+train (t-lkdjjj3ewd8ld2aa8wcpfhgpi) {
+  utterance ("[g:FlipCoin] Flip (10)[v:DesiredFlips] coins")
+  plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1565063046657)
+}
