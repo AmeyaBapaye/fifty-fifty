@@ -23,7 +23,6 @@ dialog (Result) {
     }
   }  else-if (result.coinFaceResult == 'Thanos') {
     choose (Random) {
-      template ("I am inevitable!")
       template ("Perfectly balanced...as all things should be.")
     }
   }
