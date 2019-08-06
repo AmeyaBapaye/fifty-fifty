@@ -1,0 +1,5 @@
+train (t-1gqskqlm3ppxguwesel42zu1j) {
+  utterance ("[g:FlipCoin] (50)[v:DesiredFlips] coin flip")
+  plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1565099433932)
+}

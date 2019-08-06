@@ -17,7 +17,7 @@ function FlipCoin (coinType, desiredFlips) {
 
     if(randomNum > 0.5) {
       numHeads++
-    } else if (randomNum < 0.5){
+    } else if (randomNum <= 0.5){
       numTails++
     }
   }  
@@ -29,7 +29,7 @@ function FlipCoin (coinType, desiredFlips) {
     coinFaceResult = "Tails"
     coinAnimationUrl = "/gifs/LydiaCoinTails.gif"
   } else if (numHeads == numTails) {
-    coinFaceResult = "Thanos"
+    coinFaceResult = ""
     coinAnimationUrl = "/gifs/LydiaCoinTails.gif"
   }
 

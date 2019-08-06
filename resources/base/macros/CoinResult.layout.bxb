@@ -16,13 +16,35 @@ layout-macro-def (coin-result) {
         }
         spacer
 
-        title-area {
-          halign (Center)
-          slot2 {
-            single-line {
-              text {
-                style (Title_XXL)
-                value ("#{value(coinFlipResult.coinFaceResult)}")
+        if(exists(coinFlipResult.coinFaceResult)) {
+          title-area {
+            halign (Center)
+            slot2 {
+              single-line {
+                text {
+                  style (Title_XXL)
+                  value ("#{value(coinFlipResult.coinFaceResult)}")
+                }
+              }
+            }
+          }
+        } else {
+          cell-card {
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary {
+                  template ("Are you willing to accept this fate?")
+                }
+                secondary {
+                  template ("Click to take matters into your own hands")
+                }
+              }
+            }
+            on-click {
+              intent {
+                goal: FlipCoin
+                value: DesiredFlips (1)
               }
             }
           }
@@ -40,7 +62,7 @@ layout-macro-def (coin-result) {
                   text {
                     style (Title_S)
                     value {
-                      template ("Number of Heads")
+                      template ("Heads")
                     }
                   }
                 }
@@ -73,7 +95,7 @@ layout-macro-def (coin-result) {
                   text {
                     style (Title_S)
                     value {
-                      template ("Number of Tails")
+                      template ("Tails")
                     }
                   }
                 }

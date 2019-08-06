@@ -21,7 +21,7 @@ dialog (Result) {
       template ("Tails never fails!")
       template ("Tails won!")
     }
-  }  else-if (result.coinFaceResult == 'Thanos') {
+  }  else-if (result.numHeads == result.numTails) {
     choose (Random) {
       template ("Perfectly balanced...as all things should be.")
     }

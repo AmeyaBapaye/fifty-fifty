@@ -1,0 +1,5 @@
+train (t-mxb7k8hs2hjsvqfzmmointdad) {
+  utterance ([g:FlipCoin] coin flip)
+  plan (Y2BiUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCUDIxAyQDGQBAA=)
+  last-modified (1565099405862)
+}

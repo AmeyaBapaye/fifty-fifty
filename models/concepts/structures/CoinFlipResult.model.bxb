@@ -3,7 +3,7 @@ structure (CoinFlipResult) {
 
   property (coinFaceResult) {
     type (CoinFaceResult)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (coinAnimationUrl) {
     type (CoinAnimationUrl)
