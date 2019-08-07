@@ -29,8 +29,8 @@ function FlipCoin (coinType, desiredFlips) {
     coinFaceResult = "Tails"
     coinAnimationUrl = "/gifs/LydiaCoinTails.gif"
   } else if (numHeads == numTails) {
-    coinFaceResult = ""
-    coinAnimationUrl = "/gifs/LydiaCoinTails.gif"
+    coinFaceResult = "Balanced"
+    coinAnimationUrl = "/gifs/LydiaCoinBalanced.gif"
   }
 
   console.log(coinFaceResult)
