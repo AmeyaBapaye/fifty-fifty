@@ -9,14 +9,18 @@ action (FlipCoin) {
     input (desiredFlips) {
       type(DesiredFlips)
       min (Optional) max (One)
-      default-init {
-        intent {
-          goal: FlipCoin
-          value: DesiredFlips (1)
+      validate {
+        if (desiredFlips < 1) {
+          replan {
+            dialog (I need at least 1 coin to flip so I'll just use the one I have.)
+            intent {
+              goal: FlipCoin
+              value: DesiredFlips (1)
+            }
+          }
         }
       }
     }
   }
-
   output (CoinFlipResult)
 }

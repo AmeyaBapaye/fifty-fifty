@@ -1,6 +1,7 @@
 hints {
   uncategorized {
     utterance ("Flip a coin")
+    utterance ("Flip 10 coins")
     utterance ("coin flip")
     utterance ("Heads or tails")
   }
