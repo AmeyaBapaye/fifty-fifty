@@ -13,7 +13,7 @@ layout-macro-def (coin-result) {
             url ("#{value(coinFlipResult.coinAnimationUrl)}")
             object-fit (Contain)
             background-color (Transparent)
-            aspect-ratio (4:3)
+            aspect-ratio (16:9)
           }
           spacer
 
@@ -23,7 +23,7 @@ layout-macro-def (coin-result) {
               slot2 {
                 single-line {
                   text {
-                    style (Title_XXL)
+                    style (Title_XL)
                     value ("#{value(coinFlipResult.coinFaceResult)}")
                   }
                 }

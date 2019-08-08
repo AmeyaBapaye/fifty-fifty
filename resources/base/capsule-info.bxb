@@ -1,7 +1,7 @@
 capsule-info {
-  display-name (50/50)
+  display-name (FiftyFifty)
   developer-name (KamehAmeya)
-  icon-asset (icon/fiftyFiftyIcon.png)
+  icon-asset (icon/fiftyfiftyicon.png)
   description ("What are your chances with this coin flip? Probably 50/50")
   
   search-keywords {
@@ -10,8 +10,9 @@ capsule-info {
     keyword (heads or tails)
   }
   
-  dispatch-name (50/50)
+  dispatch-name (5050)
   dispatch-aliases {
+    alias (FiftyFifty)
     alias (50 50)
     alias (fifty fifty)
   }

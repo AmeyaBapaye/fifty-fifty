@@ -22,15 +22,15 @@ function FlipCoin (coinType, desiredFlips) {
     }
   }  
 
-  if (numHeads > numTails) {
+ if (numHeads > numTails) {
     coinFaceResult = "Heads"
-    coinAnimationUrl = "/gifs/LydiaCoinHeads.gif"
+    coinAnimationUrl = "/gifs/LydiaCoinHeads.gif?" + ((Math.random()*1000) + "0" + (Math.random()*1000))
   } else if (numTails > numHeads) {
     coinFaceResult = "Tails"
-    coinAnimationUrl = "/gifs/LydiaCoinTails.gif"
+    coinAnimationUrl = "/gifs/LydiaCoinTails.gif?" + ((Math.random()*1000) + "1" + (Math.random()*1000))
   } else if (numHeads == numTails) {
     coinFaceResult = "Balanced"
-    coinAnimationUrl = "/gifs/LydiaCoinBalanced.gif"
+    coinAnimationUrl = "/gifs/LydiaCoinBalanced.gif?" + ((Math.random()*1000) + "2" + (Math.random()*1000))
   }
 
   console.log(coinFaceResult)
