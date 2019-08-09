@@ -2,7 +2,7 @@ capsule-info {
   display-name (Fifty Fifty)
   developer-name (KamehAmeya)
   icon-asset (icon/fiftyfiftyicon.png)
-  description ("What are your chances with this coin flip? Probably 50/50.")
+  description ("Make all your most important decisions with the flip of an ancient coin! What are your chances of getting what you want? Probably 50/50.")
   
   search-keywords {
     keyword (coinflip)

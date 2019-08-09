@@ -11,12 +11,8 @@ function FlipCoin (coinType, desiredFlips) {
   var numHeads = 0
   var numTails = 0
   
-  var numFlips = desiredFlips
-
-  if(desiredFlips < 1)
-    numFlips = 1
   
-  for (var i = 0; i < numFlips; i++) { 
+  for (var i = 0; i < desiredFlips; i++) { 
     var randomNum = Math.random()
 
     if(randomNum > 0.5) {

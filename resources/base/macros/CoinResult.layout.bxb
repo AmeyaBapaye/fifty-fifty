@@ -38,7 +38,7 @@ layout-macro-def (coin-result) {
                     template ("Are you willing to accept this fate?")
                   }
                   secondary {
-                    template ("Click to take matters into your own hands")
+                    template ("Tap here to take matters into your own hands")
                   }
                 }
               }
