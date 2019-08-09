@@ -18,7 +18,6 @@ function FlipCoin (coinType, desiredFlips) {
   
   for (var i = 0; i < numFlips; i++) { 
     var randomNum = Math.random()
-    console.log(randomNum)
 
     if(randomNum > 0.5) {
       numHeads++
