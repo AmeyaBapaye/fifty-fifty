@@ -16,7 +16,6 @@ layout-macro-def (coin-result) {
             aspect-ratio (16:9)
           }
           spacer
-
           if(coinFlipResult.coinFaceResult != 'Balanced') {
             title-area {
               halign (Center)
