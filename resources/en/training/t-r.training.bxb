@@ -3,3 +3,13 @@ train (t-r4mp4ydnii1stssqlqzlirr8t) {
   plan (Y2BiUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCUDIxAyQDGQBAA=)
   last-modified (1565313919877)
 }
+train (t-rvrglisbrwj64ohrm9cpm9akm) {
+  utterance ("[g:FlipCoin] Flip (5 million 365)[v:WeirdNumText] coins")
+  plan (Y2BlUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgZF7GqANuTnlKX6leYW4zImPDWzKAWoICS1ooSBhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1565622859194)
+}
+train (t-rz23zfmnuw2t8rkwf8sranyff) {
+  utterance ("[g:FlipCoin] flip (.50)[v:DesiredFlips:0.50] coins")
+  plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1565620165003)
+}

@@ -1,5 +1,5 @@
 train (t-jiyfbmmrvl1x077ajc1xobhci) {
-  utterance ("[g:kamehameya.fiftyfifty.FlipCoin] Flip (1337)[v:kamehameya.fiftyfifty.DesiredFlips:1337] coins")
+  utterance ("[g:FlipCoin] Flip (1337)[v:DesiredFlips:1337] coins")
   plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)
-  last-modified (1565313885416)
+  last-modified (1565459432567)
 }

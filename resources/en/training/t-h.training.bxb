@@ -1,0 +1,5 @@
+train (t-hdt8z3h81q1s4ubpql5a7z1gg) {
+  utterance ("[g:FlipCoin] flip (8 octillion 4 billion 1 million 650)[v:WeirdNumText] coins")
+  plan (Y2BlUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgZF7GqANuTnlKX6leYW4zImPDWzKAWoICS1ooSBhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1565623384182)
+}

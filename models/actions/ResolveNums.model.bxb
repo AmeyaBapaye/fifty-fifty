@@ -1,0 +1,11 @@
+action (ResolveNums) {
+  type (Search)
+  description (Resolves weird numbers into normal integers)
+  collect {
+    input (weirdNumText) {
+      type (WeirdNumText)
+      min (Required) max (One)
+    }
+  }
+  output (DesiredFlips)
+}

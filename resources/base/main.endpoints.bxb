@@ -4,5 +4,9 @@ endpoints {
       accepted-inputs (coinType,desiredFlips)
       local-endpoint ("FlipCoin.js")
     }
+    action-endpoint (ResolveNums) {
+      accepted-inputs (weirdNumText)
+      local-endpoint ("ResolveNums.js")
+    }
   }
 }

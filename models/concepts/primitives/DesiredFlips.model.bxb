@@ -1,4 +1,4 @@
-integer (DesiredFlips) {
+decimal (DesiredFlips) {
   description (The number of coin flips desired)
   features {
     transient

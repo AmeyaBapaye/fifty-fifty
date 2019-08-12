@@ -10,22 +10,33 @@ action (FlipCoin) {
       type(DesiredFlips)
       min (Optional) max (One)
       validate {
-        if (exists(desiredFlips) && desiredFlips < 1) {
-          replan {
-            dialog ("I need at least 1 coin to flip so I'll just use the one I have.")
-            intent {
-              goal: FlipCoin
-              value: DesiredFlips (1)
+        if(exists(desiredFlips)) {
+          if (desiredFlips > 1500000.00) {
+            replan {
+              dialog ("That'll take forever! I'm just going to flip one instead.")
+              intent {
+                goal: FlipCoin
+                value: DesiredFlips (1.00)
+              }
+            }
+          }
+          if (desiredFlips < 1.00) {
+            replan {
+              dialog ("I need at least one coin to flip so I'll just use the one I have.")
+              intent {
+                goal: FlipCoin
+                value: DesiredFlips (1.00)
+              }
             }
           }
         }
       }
-      default-init {
-        intent {
-          goal: FlipCoin
-          value: DesiredFlips (1)
-        }
-      }
+      // default-init {
+      //   intent {
+      //     goal: FlipCoin
+      //     value: DesiredFlips (1)
+      //   }
+      // }
     }
   }
   output (CoinFlipResult)

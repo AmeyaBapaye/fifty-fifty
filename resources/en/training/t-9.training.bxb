@@ -1,3 +1,8 @@
+train (t-9bpd2eafmtqt6lwzrc7aejnib) {
+  utterance ("[g:FlipCoin] Flip (1 million)[v:WeirdNumText] coins")
+  plan (Y2BlUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgZF7GqANuTnlKX6leYW4zImPDWzKAWoICS1ooSBhYGRgYmBGUgzQFmMYBYIMAFpoDgA)
+  last-modified (1565620400829)
+}
 train (t-9iqckpn4hhqz4r83jnf5vcga7) {
   utterance ([g:FlipCoin] Heads or tails)
   plan (Y2BiUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCUDIxAyQDGQBAA=)
