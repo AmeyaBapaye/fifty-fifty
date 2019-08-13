@@ -10,11 +10,14 @@ capsule-info {
     keyword (heads or tails)
     keyword (5050)
     keyword (50 50)
+    keyword (50/50)
     keyword (fifty fifty)
   }
   
   dispatch-name (Fifty Fifty)
   dispatch-aliases {
-    alias (5050)
+    alias (5050) // This is what Bixby ASR picks up when a user says "Fifty Fifty"
+    alias (50 50) // When I told people my capsule will be called Fifty Fifty, they invariably thought I meant "50 50" or "50/50"
+    alias (50/50)
   }
 }

@@ -1,8 +1,3 @@
-train (t-bgpskor1tnp7kmof0yw1fgql3) {
-  utterance ("[g:FlipCoin] flip (.5)[v:DesiredFlips:0.50] coins")
-  plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)
-  last-modified (1565459320712)
-}
 train (t-bv7bavv2maqwf2no3of0qjasp) {
   utterance ("[g:FlipCoin] coin flip (25)[v:DesiredFlips] coins")
   plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)

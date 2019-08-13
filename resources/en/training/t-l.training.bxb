@@ -3,3 +3,8 @@ train (t-lkdjjj3ewd8ld2aa8wcpfhgpi) {
   plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)
   last-modified (1565063046657)
 }
+train (t-lzt5scjnj62k6nm3xhuiwg35a) {
+  utterance ("[g:FlipCoin] flip (1.5)[v:DesiredFlips] coins")
+  plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1565705163949)
+}

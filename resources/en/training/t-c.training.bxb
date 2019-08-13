@@ -1,5 +1,0 @@
-train (t-ckp4q0zq6ruuhvu5fhh2hscwg) {
-  utterance ("[g:FlipCoin] flip (.75)[v:DesiredFlips:0.75] coins")
-  plan (Y2BmUMlOzE3NAOLKRL20zLSSSjCh55yfmeeWk1kQlFpcmlPCIIddFUgFSCWDEnZ5l9TizKLUFJCyYgYmBkYgZgCSjAwgAOUDAA==)
-  last-modified (1565459432874)
-}

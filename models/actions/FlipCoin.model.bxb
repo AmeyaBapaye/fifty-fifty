@@ -31,12 +31,12 @@ action (FlipCoin) {
           }
         }
       }
-      // default-init {
-      //   intent {
-      //     goal: FlipCoin
-      //     value: DesiredFlips (1)
-      //   }
-      // }
+      default-init {
+        intent {
+          goal: FlipCoin
+          value: DesiredFlips (1)
+        }
+      }
     }
   }
   output (CoinFlipResult)
