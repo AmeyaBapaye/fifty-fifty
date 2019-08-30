@@ -1,8 +1,19 @@
 hints {
   uncategorized {
-    utterance ("Flip a coin")
-    utterance ("Flip 10 coins")
-    utterance ("coin flip")
-    utterance ("Heads or tails")
+    hint ("With Fifty Fifty, flip a coin") {
+      preferred-hint ("Flip a coin")
+    }
+    hint ("In Fifty Fifty, flip 10 coins") {
+      preferred-hint ("Flip 10 coins")
+    }
+    hint ("Ask Fifty Fifty to flip 25 coins") {
+      preferred-hint ("Flip 25 coins")
+    }
+    hint ("Open Fifty Fifty and flip a coin") {
+      preferred-hint ("Flip a coin")
+    }
+    hint ("Use Fifty Fifty to coin flip") {
+      preferred-hint ("Coin flip")
+    }
   }
 }
