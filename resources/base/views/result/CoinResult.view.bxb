@@ -1,11 +1,25 @@
 result-view {
-  match: CoinFlipResult (result)
-  
-  render {
-    layout-macro (coin-result) {
-      param (coinFlipResult) {
-        expression (result)
-      }
-    }
-  }
+	match: CoinFlipResult (result)
+	
+	render {
+		layout-macro (coin-result) {
+			param (coinFlipResult) {
+				expression (result)
+			}
+		}
+	}
+	conversation-drivers {
+		if ((result.numHeads + result.numTails) > 1) {
+			conversation-driver {
+				template ("Flip #{integer(result.numHeads + result.numTails)} coins again")
+			}
+			conversation-driver {
+				template ("Flip a coin")
+			}
+		} else {
+			conversation-driver {
+				template ("Flip a coin")
+			}
+		}
+	}
 }
