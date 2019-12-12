@@ -1,11 +1,5 @@
 hints {
   uncategorized {
-    hint ("Flip a coin with Fifty Fifty") {
-      preferred-hint ("Flip a coin")
-    }
-    hint ("Flip 10 coins with Fifty Fifty") {
-      preferred-hint ("Flip 10 coins")
-    }
     hint ("Ask Fifty Fifty to flip 25 coins") {
       preferred-hint ("Flip 25 coins")
     }

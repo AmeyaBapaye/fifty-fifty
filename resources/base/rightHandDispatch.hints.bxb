@@ -1,0 +1,13 @@
+hints {
+  uncategorized {
+    hint ("Flip a coin with Fifty Fifty") {
+      preferred-hint ("Flip a coin")
+    }
+    hint ("Flip 10 coins with Fifty Fifty") {
+      preferred-hint ("Flip 10 coins")
+    }
+    hint ("Flip 100 coins using Fifty Fifty") {
+      preferred-hint ("Flip 100 coins")
+    }
+  }
+}

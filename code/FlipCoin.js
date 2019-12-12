@@ -26,13 +26,13 @@ function FlipCoin (coinType, desiredFlips) {
 
  if (numHeads > numTails) {
     coinFaceResult = "Heads"
-    coinAnimationUrl = "/gifs/LydiaCoinHeads.gif?" + ((Math.random()*1000) + "0" + (Math.random()*1000))
+    coinAnimationUrl = "/gifs/LydiaCoinHeads.gif"
   } else if (numTails > numHeads) {
     coinFaceResult = "Tails"
-    coinAnimationUrl = "/gifs/LydiaCoinTails.gif?" + ((Math.random()*1000) + "1" + (Math.random()*1000))
+    coinAnimationUrl = "/gifs/LydiaCoinTails.gif"
   } else if (numHeads == numTails) {
     coinFaceResult = "Balanced"
-    coinAnimationUrl = "/gifs/LydiaCoinBalanced.gif?" + ((Math.random()*1000) + "2" + (Math.random()*1000))
+    coinAnimationUrl = "/gifs/LydiaCoinBalanced.gif"
   }
 
   console.log(coinFaceResult)
