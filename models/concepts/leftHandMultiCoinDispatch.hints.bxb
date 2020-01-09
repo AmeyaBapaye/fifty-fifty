@@ -1,0 +1,13 @@
+hints {
+  uncategorized {
+    hint ("Ask Fifty Fifty to flip 10 coins") {
+      preferred-hint ("Flip 10 coins")
+    }
+    hint ("Open Fifty Fifty and flip 25 coins") {
+      preferred-hint ("Flip 25 coins")
+    }
+    hint ("Use Fifty Fifty to flip 500000 coins") {
+      preferred-hint ("Flip 500000 coins")
+    }
+  }
+}
