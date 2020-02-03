@@ -3,19 +3,12 @@ hints {
     hint ("Flip a coin with Fifty Fifty") {
       preferred-hint ("Flip a coin")
     }
-    hint ("Ask Fifty Fifty to flip a coin") {
-      preferred-hint ("Flip a coin")
-    }
     hint ("Flip a coin using Fifty Fifty") {
       preferred-hint ("Flip a coin")
     }
     hint ("Flip a coin in Fifty Fifty") {
       preferred-hint ("Flip a coin")
     }
-    hint ("Open Fifty Fifty and flip a coin") {
-      preferred-hint ("Flip a coin")
-    }
-
     hint ("Flip 10 coins with Fifty Fifty") {
       preferred-hint ("Flip 10 coins")
     }

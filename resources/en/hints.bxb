@@ -1,0 +1,16 @@
+hints {
+  uncategorized {
+    hint ("Use Fifty Fifty to flip a coin") {
+      preferred-hint ("Flip a coin")
+    }
+    hint ("Ask Fifty Fifty to flip a coin") {
+      preferred-hint ("Flip a coin")
+    }
+    hint ("Open Fifty Fifty and flip a coin") {
+      preferred-hint ("Flip a coin")
+    }
+    hint ("Use Fifty Fifty to flip 10 coins") {
+      preferred-hint ("Flip 10 coins")
+    }
+  }
+}
