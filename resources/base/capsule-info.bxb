@@ -18,4 +18,10 @@ capsule-info {
   dispatch-aliases {
     alias (5050) // This is what Bixby ASR picks up when a user says "Fifty Fifty"
   }
+
+  requested-permissions {
+    permission (user-profile-access) {
+      justification ("Testing the possibility of localized coins to be flipped")
+    }
+  }
 }

@@ -1,6 +1,6 @@
 capsule {
   id (kamehameya.fiftyfifty)
-  version (1.4.5)
+  version (1.5.0)
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -8,7 +8,7 @@ capsule {
     target (bixby-mobile-en-IN)
   }
   
-  runtime-version (2)
+  runtime-version (3)
 
   store-countries {
     all
@@ -18,4 +18,7 @@ capsule {
     section (Utilities)
   }
   default-action (FlipCoin)
+  permissions {
+    user-profile-access
+  }
 }
