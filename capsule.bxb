@@ -1,6 +1,6 @@
 capsule {
   id (kamehameya.fiftyfifty)
-  version (1.5.0)
+  version (1.5.2)
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -8,7 +8,7 @@ capsule {
     target (bixby-mobile-en-IN)
   }
   
-  runtime-version (3)
+  runtime-version (9)
 
   store-countries {
     all
